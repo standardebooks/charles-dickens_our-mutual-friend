@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-dickens/our-mutual-friend</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-11-25T19:25:09Z</dc:date>
+		<meta property="dcterms:modified">2025-11-25T19:25:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -51,19 +51,18 @@
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008102115</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">When the body of an unknown man is dragged from the river Thames, a series of complications to do with the will of a wealthy man begin to reveal themselves and entangle the lives of several characters.</dc:description>
+		<dc:description id="description">When the body of an unknown man is dragged from the river Thames, a series of complications involving the will of a wealthy man entangle the lives of several Londoners.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Our Mutual Friend&lt;/i&gt; is the last novel published by &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt; before his death. It was published in serial form between 1864 and 1865. Like many of Dickens’ earlier works, it has a serious theme addressing social concerns such as how the poor and destitute were treated, but combines this with satire and a complex plot involving mistaken identity and the unintended consequences of the will of a rich man.&lt;/p&gt;
-			&lt;p&gt;The novel begins with the retrieval of the body of a drowned man from the Thames river, a body which is identified as that of John Harmon, the heir to his father’s huge fortune. What happens to this fortune and to other people named in the will make up a large part of the story.&lt;/p&gt;
-			&lt;p&gt;It may be worth noting that in this novel Dickens introduces a kindly and worthy Jew, Solomon Riah. It has been suggested that this was a deliberate effort to redeem his harsh treatment of the Jewish character Fagin in his early novel &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/charles-dickens/oliver-twist"&gt;Oliver Twist&lt;/a&gt;&lt;/i&gt;.&lt;/p&gt;
-			&lt;p&gt;Though &lt;i&gt;Our Mutual Friend&lt;/i&gt; was not regarded at the time of publication as one of Dickens’ best works, its critical reputation has improved in later years. Some early silent films were made based on the novel, but its length and the complexity of its plot probably make it more suitable for adaptation for television, and several successful versions have been made, with the most recent being a BBC serial in 1998.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Our Mutual Friend&lt;/i&gt; is the last of &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens’&lt;/a&gt; novels, published serially between 1864 and 1865. Like many of Dickens’ works, it addresses social concerns like how the poor and destitute are treated, but tempers these more serious themes with humor and satire.&lt;/p&gt;
+			&lt;p&gt;The novel opens with the retrieval of the body of a drowned man from the Thames river—a body which is identified as that of John Harmon, heir to his father’s huge fortune. What happens to this fortune and to the other people named in the will make up a large part of the complex plot.&lt;/p&gt;
+			&lt;p&gt;Though &lt;i&gt;Our Mutual Friend&lt;/i&gt; wasn’t especially well regarded at the time of publication, its critical reputation has improved in later years. It has been adapted into several silent films, but its length and the complexity of its plot make it more suitable for long-form television, with several successful adaptations having been made.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/883</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/011405488</dc:source>
 		<meta property="se:production-notes">Modernize spelling makes some changes which should not be accepted, specifically those removing hyphens in words meant to be spoken in a drawn-out way.//I have replaced many instances of spurious capitalization in the text, but in chapter 1-11 I have left them in when Podsnap is talking to a Frenchman, as I take it they are meant to show how he is speaking slowly, loudly and with emphasis to someone not familiar with English.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">331546</meta>
+		<meta property="se:reading-ease.flesch">72.36</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Our_Mutual_Friend</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-dickens_our-mutual-friend</meta>
 		<dc:creator id="author">Charles Dickens</dc:creator>
@@ -94,6 +93,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
