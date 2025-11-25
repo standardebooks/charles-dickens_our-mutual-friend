@@ -1,76 +1,62 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-blockquote header p{
-	font-style: normal;
-	font-variant: small-caps;
-	text-align: center;
-}
-
-/* this is to create equivalent of a brace when several people speak at once */
-#chapter-1-2 div,
-#chapter-2-16 div{
-	border-left: 1px solid black;
-	padding-left: 0;
-}
-
-#chapter-1-2 div p:first-child,
-#chapter-2-16 div p:first-child{
-	hanging-punctuation: none;
-	text-indent: 1em;
+/* This is to create equivalent of a brace when several people speak at once. */
+.together{
+	border-left: 1px solid;
 }
 
 #chapter-1-5 blockquote:first-of-type{
 	border: 2px solid;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;
+	max-width: 30ex;
+	padding: 1em;
+	text-align: center;
 }
 
 #chapter-1-5 blockquote:first-of-type p{
+	display: inline-block;
 	font-style: italic;
-	padding: .5em;
+	text-align: initial;
 }
 
-#chapter-2-6 blockquote:nth-of-type(1) p:nth-of-type(1),
-#chapter-2-6 blockquote:nth-of-type(1) p:nth-of-type(2){
+#chapter-2-6 blockquote:first-of-type{
 	font-variant: small-caps;
-	padding-bottom: .5em;
 	text-align: center;
+}
+
+#chapter-2-6 blockquote:first-of-type p{
+	margin: .5em 0;
 	text-indent: 0;
 }
 
-#chapter-2-6 blockquote:nth-of-type(1) p:nth-of-type(3){
+#chapter-2-6 blockquote:first-of-type > p:last-of-type{
 	font-style: italic;
 	font-variant: normal;
-	text-align: center;
-	text-indent: 0;
 }
 
 #chapter-3-2 blockquote{
 	border: 2px solid;
+	font-variant: small-caps;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 50%;
-	padding: 20px;
+	padding: 1em;
+	text-align: center;
 }
 
 #chapter-3-2 blockquote p{
-	text-align: center;
 	text-indent: 0;
 }
 
-#chapter-3-2 blockquote p:nth-of-type(1){
-	font-size: 1.4em;
-	font-variant: small-caps;
+#chapter-3-2 blockquote p:first-of-type{
+	font-size: larger;
 }
 
-#chapter-3-2 blockquote p:nth-of-type(2){
-	font-variant: small-caps;
-}
-
-#chapter-3-2 blockquote p:nth-of-type(3){
+#chapter-3-2 blockquote p:last-of-type{
 	font-style: italic;
+	font-variant: normal;
 }
 
 /* poetry styling */
