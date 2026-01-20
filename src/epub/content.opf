@@ -61,7 +61,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/883</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/011405488</dc:source>
 		<meta property="se:production-notes">Modernize spelling makes some changes which should not be accepted, specifically those removing hyphens in words meant to be spoken in a drawn-out way.//I have replaced many instances of spurious capitalization in the text, but in chapter 1-11 I have left them in when Podsnap is talking to a Frenchman, as I take it they are meant to show how he is speaking slowly, loudly and with emphasis to someone not familiar with English.</meta>
-		<meta property="se:word-count">331546</meta>
+		<meta property="se:word-count">326054</meta>
 		<meta property="se:reading-ease.flesch">72.36</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Our_Mutual_Friend</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-dickens_our-mutual-friend</meta>
