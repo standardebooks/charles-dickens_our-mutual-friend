@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-1-11.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The italicised phrase is an independent clause and logically the exclamation mark should be within the italicised phrase.</reason>
 		</ignore>
 	</file>
