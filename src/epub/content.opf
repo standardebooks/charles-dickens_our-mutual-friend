@@ -53,7 +53,7 @@
 		<meta property="se:subject">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">The Guardian’s 100 Best Novels of All Time (2026)</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="group-position" refines="#collection-1">72</meta>
+		<meta property="group-position" refines="#collection-1">73</meta>
 		<dc:description id="description">When the body of an unknown man is dragged from the river Thames, a series of complications involving the will of a wealthy man entangle the lives of several Londoners.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Our Mutual Friend&lt;/i&gt; is the last of &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens’&lt;/a&gt; novels, published serially between 1864 and 1865. Like many of Dickens’ works, it addresses social concerns like how the poor and destitute are treated, but tempers these more serious themes with humor and satire.&lt;/p&gt;
